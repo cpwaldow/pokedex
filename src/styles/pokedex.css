@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pokemon {
+  width: 200px;
+  margin: 20px 20px 40px 20px;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.btn {
+  width: 80px;
+  padding: 10px;
+  background-color: skyblue;
+  font-weight: bolder;
+  border-radius: 6px;
+}
