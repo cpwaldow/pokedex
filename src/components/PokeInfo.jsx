@@ -25,11 +25,13 @@ const PokeInfo = ({ pokemon }) => {
           <h3 className="poke-name">
             {info.name}, {info.id}
           </h3>
-          {info.types.map((type) => (
-            <p key={type.type.name} className="poke-name">
-              {type.type.name}
-            </p>
-          ))}
+          <section className="info-container">
+            {info.types.map((type) => (
+              <p key={type.type.name} className="poke-type">
+                {type.type.name}
+              </p>
+            ))}
+          </section>
         </section>
       )}
     </>

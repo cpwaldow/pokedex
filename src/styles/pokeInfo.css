@@ -1,6 +1,6 @@
 .poke-info {
   border: 1px solid black;
-  height: 300px;
+  border-radius: 6px;
   padding: 10px;
   margin: 10px 10px;
 }
@@ -9,6 +9,15 @@
   width: 150px;
 }
 
-.poke-name {
+.poke-name , .poke-type {
   text-transform: capitalize;
+}
+
+.info-container {
+  display: flex;
+  justify-content: center;
+}
+
+.poke-type {
+  padding: 0 5px;
 }
