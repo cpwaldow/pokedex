@@ -17,7 +17,7 @@ const Pokelist = () => {
   }, []);
   return (
     <>
-      <section className="container">
+      <section className="container-list">
         {pokemon.map((element) => {
           return (
             <div key={element.name}>

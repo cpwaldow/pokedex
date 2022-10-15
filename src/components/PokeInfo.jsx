@@ -26,7 +26,7 @@ const PokeInfo = ({ pokemon }) => {
             {info.name}, {info.id}
           </h3>
           {info.types.map((type) => (
-            <p>{type.type.name}</p>
+            <p key={type.type.name}>{type.type.name}</p>
           ))}
         </section>
       )}
