@@ -1,6 +1,7 @@
 .container-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .loading-card {
