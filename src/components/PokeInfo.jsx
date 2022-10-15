@@ -9,6 +9,7 @@ const PokeInfo = ({ pokemon }) => {
     );
     const data = await response.json();
     setInfo(data);
+    console.log(data);
   };
   React.useEffect(() => {
     fetchImg(pokemon);
@@ -29,6 +30,13 @@ const PokeInfo = ({ pokemon }) => {
             {info.types.map((type) => (
               <p key={type.type.name} className="poke-type">
                 {type.type.name}
+              </p>
+            ))}
+          </section>
+          <section className="stats-container">
+            {info.stats.map((stat) => (
+              <p className="poke-stats">
+                {stat.stat.name}: {stat.base_stat}
               </p>
             ))}
           </section>
