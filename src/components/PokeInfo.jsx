@@ -22,11 +22,13 @@ const PokeInfo = ({ pokemon }) => {
             alt={info.name}
             className="poke-img"
           />
-          <h3>
+          <h3 className="poke-name">
             {info.name}, {info.id}
           </h3>
           {info.types.map((type) => (
-            <p key={type.type.name}>{type.type.name}</p>
+            <p key={type.type.name} className="poke-name">
+              {type.type.name}
+            </p>
           ))}
         </section>
       )}

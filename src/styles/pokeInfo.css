@@ -8,3 +8,7 @@
 .poke-img {
   width: 150px;
 }
+
+.poke-name {
+  text-transform: capitalize;
+}
