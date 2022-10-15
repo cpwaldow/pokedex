@@ -9,7 +9,6 @@ const PokeInfo = ({ pokemon }) => {
     );
     const data = await response.json();
     setInfo(data);
-    console.log(data);
   };
   React.useEffect(() => {
     fetchImg(pokemon);
