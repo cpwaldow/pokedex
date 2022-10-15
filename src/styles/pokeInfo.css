@@ -9,6 +9,10 @@
   width: 150px;
 }
 
+.poke-name {
+  margin: 0;
+}
+
 .poke-name , .poke-type {
   text-transform: capitalize;
 }
