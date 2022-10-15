@@ -2,3 +2,9 @@
   display: flex;
   flex-wrap: wrap;
 }
+
+.loading-card {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 20px;
+}
