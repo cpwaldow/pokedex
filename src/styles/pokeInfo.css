@@ -1,0 +1,10 @@
+.poke-info {
+  border: 1px solid black;
+  height: 300px;
+  padding: 10px;
+  margin: 0 5px;
+}
+
+.poke-img {
+  width: 150px;
+}

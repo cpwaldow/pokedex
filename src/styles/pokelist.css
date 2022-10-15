@@ -3,8 +3,3 @@
   flex-wrap: wrap;
   margin: 0 30px;
 }
-
-.pokemon {
-  width: 100px;
-  text-transform: capitalize;
-}
