@@ -25,3 +25,7 @@
 .poke-type {
   padding: 0 5px;
 }
+
+.stats-container {
+  text-align: start;
+}
